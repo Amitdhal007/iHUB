@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+        Arial, sans-serif;
+    font-weight: 400;
+}
+
+iframe {
+    margin-top: 40px;
+    width: 100%;
+    height: 350px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+input {
+    border: none;
+    background: hsl(0 0% 93%);
+    border-radius: .25rem;
+    padding: .75rem 1rem;
+}
+
+input[type=text] {
+    padding: 9px 23px;
+    margin-top: 20px;
+    width: 350px;
+    outline: none;
+}
+
+nav{
+    padding: 1rem 1rem;
+}
+
+/* input[type=text]::selection{
+    border: 2px solid black;
+} */
+
+input[type=email] {
+    margin-top: 20px;
+    padding: 9px 23px;
+    width: 350px;
+    outline: none;
+}
+
+textarea {
+
+    border: none;
+    outline: none;
+    background: hsl(0 0% 93%);
+    border-radius: .25rem;
+    margin-top: 20px;
+    padding: 9px 23px;
+    width: 350px;
+    height: 100px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 9px 25px;
+    background-color: rgba(29, 29, 244, 0.756);
+    font-family: Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+        Arial, sans-serif;
+    /* box-shadow: 0 .75rem .5rem -.5rem hsl(0 50% 80%); */
+    color: white;
+    line-height: 1.08349;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+button:hover{
+    transform: scale(1.1);
+}

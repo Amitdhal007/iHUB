@@ -1,0 +1,177 @@
+.insidecontainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.container{
+    /* background-color: rgb(245,245,247); */
+    margin-top: 65px;
+    margin-bottom: 100px;
+}
+
+
+.content{
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.hed2{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -.003em;
+    color: black;
+    font-family:  Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.hed3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -.003em;
+    color: #6e6e73;
+    font-family:  Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+.hed1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.08349;
+    letter-spacing: -.003em;
+    color: #6e6e73;
+    font-family:  Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.hed0{
+    font-size: 48px;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.im1{
+    height: 9rem;
+    margin-left: 8rem;
+    margin-top: 5rem;
+}
+
+.link1{
+    margin-left: 8.3rem;
+    margin-top: 0.7rem;
+    text-align: center;
+}
+
+.a1{
+    color: black;
+    line-height: 1.42859;
+    text-decoration: none;
+    letter-spacing: -.016em;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family:  Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+.cardview1{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* margin-left: 3rem; */
+}
+
+.cardview2{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* margin-left: 3rem; */
+}
+
+.card-content{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    /* margin-bottom: 50px; */
+    /* background-color: rgb(240, 240, 240); */
+}
+
+.card_content1{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: relative;
+    border-radius: 1rem;
+}
+
+.card_content2{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: relative;
+    border-radius: 1rem;
+}
+
+.card_content3{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: relative;
+    border-radius: 1rem;
+}
+
+.card_content1:hover{
+    box-shadow: rgba(0, 0, 0, 0.111) 0px 54px 55px, rgba(0, 0, 0, 0.111) 0px -12px 30px, rgba(0, 0, 0, 0.111) 0px 4px 6px, rgba(0, 0, 0, 0.111) 0px 12px 13px, rgba(0, 0, 0, 0.111) 0px -3px 5px;
+}
+
+
+.card_content2:hover{
+    box-shadow: rgba(0, 0, 0, 0.111) 0px 54px 55px, rgba(0, 0, 0, 0.111) 0px -12px 30px, rgba(0, 0, 0, 0.111) 0px 4px 6px, rgba(0, 0, 0, 0.111) 0px 12px 13px, rgba(0, 0, 0, 0.111) 0px -3px 5px;
+}
+
+
+.card_content3:hover{
+    box-shadow: rgba(0, 0, 0, 0.111) 0px 54px 55px, rgba(0, 0, 0, 0.111) 0px -12px 30px, rgba(0, 0, 0, 0.111) 0px 4px 6px, rgba(0, 0, 0, 0.111) 0px 12px 13px, rgba(0, 0, 0, 0.111) 0px -3px 5px;
+}
+
+#s1{
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.ccard_headline1{
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: -.01em;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: black;
+    transform: translateX(-50%);
+}
+
+
+.ccard_headline2{
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: -.01em;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    color: black;
+    transform: translateX(-50%);
+}
+
+
+.ccard_headline3{
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: -.01em;
+    position: absolute;
+    top: 10%;
+    left: 42%;
+    color: black;
+    transform: translateX(-50%);
+}
+
+

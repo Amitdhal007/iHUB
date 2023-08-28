@@ -1,0 +1,175 @@
+.product-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.product-img .vertical-img img{
+    height: 80px;
+    width: 130px;
+    object-fit: cover;
+    margin: 0.7rem;
+    cursor: pointer;
+}
+
+.vertical-img{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.single-img img{
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    margin-top: 4rem;
+    /* margin-bottom: 2rem; */
+    
+}
+
+.product-desc{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.product-desc h2{
+    font-family: Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+      Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+    font-size: 2rem;
+}
+
+.rating{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rating p{
+    margin-left: 1rem;
+    font-family: Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+      Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.price #p1{
+    color: blue;
+    margin-top: 1rem;
+}
+
+.price #p2{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.price p{
+    letter-spacing: 1px;
+    font-family: Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+      Arial, sans-serif;
+    font-size: 14px;
+}
+
+.specs-desc{
+    margin-top: 1rem;
+}
+
+.specs-desc p{
+    word-wrap: break-word;
+    font-family: Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+      Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.our-feature{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.our-feature p{
+    font-weight: 100;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+      Arial, sans-serif;
+}
+
+.toggle-inc-dec{
+    margin-top: 1rem;
+}
+
+.toggle-inc-dec span{
+    font-family: Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+      Arial, sans-serif;
+    cursor: pointer;
+}
+
+.toggle-inc-dec .plus, .toggle-inc-dec .num{
+    margin-left: 1rem;
+}
+
+.purchase-button{
+    margin-top: 1.5rem;
+}
+
+.add-to-cart {
+    padding: 9px 25px;
+    background-color: rgba(29, 29, 244, 0.756);
+    font-family: Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+        Arial, sans-serif;
+    /* box-shadow: 0 .75rem .5rem -.5rem hsl(0 50% 80%); */
+    color: white;
+    line-height: 1.08349;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+.buy-now{
+    padding: 9px 37px;
+    background-color: red;
+    font-family: Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+        Arial, sans-serif;
+    /* box-shadow: 0 .75rem .5rem -.5rem hsl(0 50% 80%); */
+    color: white;
+    line-height: 1.08349;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    margin-left: 0.5rem;
+}

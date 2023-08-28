@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.about-us .about-title p, .sourcing-title p, .Avalability-title p{
+    margin-top: 1rem;
+    font-family:  Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+}
+
+.about-title h2{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-family:  Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+.our-mission-title h2, .sourcing-title h2, .Avalability-title h2{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-family:  Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.about-title, .Avalability-title{
+    max-width: 600px;
+}
+
+
+.about-us{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+}
+
+.title-img img{
+    height: 16rem;
+    width: 24rem;
+}
+
+.our-mission-img img{
+    height: 17rem;
+    width: 27rem;
+}
+
+.sourcing-img img{
+    height: 19rem;
+    width: 25rem;
+}
+
+.Avalability-img img{
+    height: 19rem;
+    width: 25rem;
+}
+
+.our-mission, .sourcing, .Avalability{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13rem;
+}
+
+.Avalability{
+    margin-bottom: 4rem;
+}
+
+
+.our-mission-title,.sourcing-title{
+    max-width: 600px;
+}
+
+.our-mission-title p{
+    margin-top: 1rem;
+    font-family:  Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+}
