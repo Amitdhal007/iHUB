@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.header-img iframe{
+    width: 100%;
+}
+
+
+.container{
+    align-items: center;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+
+.cardrow1,.cardrow2{
+
+    display: flex;
+    overflow: hidden;
+    gap: 4rem;
+
+}
+.card{
+    height: 200px;
+    width: 300px;
+    
+}
+
