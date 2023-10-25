@@ -95,3 +95,16 @@ button {
     left: 29%;
     margin-top: 2rem;
 }
+
+.link{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.link a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}

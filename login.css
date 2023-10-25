@@ -71,7 +71,7 @@ input::placeholder {
     margin-top: 13px;
 }
 
-button:hover{
+button:hover {
     transform: scale(1.05);
     background-color: white;
     color: black;
@@ -97,10 +97,12 @@ button {
 }
 
 
-.container a{
+.container a {
     position: relative;
-    left: 33.5%;
+    left: 31.5%;
     letter-spacing: 1px;
     text-decoration: none;
     color: black;
+    font-family: Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+        Arial, sans-serif;
 }

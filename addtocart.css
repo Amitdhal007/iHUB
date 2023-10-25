@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.container {
+    margin: 3rem 5rem;
+}
+
+.main-heading h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.main-cart-container .cart-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+}
+
+.main-cart-container {
+    margin-top: 3rem;
+}
+
+
+.cart-heading h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.cart-heading {
+    background-color: orangered;
+}
+
+.product-details img {
+    object-fit: cover;
+    height: 150px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+.product-details {
+    display: flex;
+    gap: 1rem;
+    width: 50%;
+}
+
+.product-details .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 0.5rem;
+}
+
+.product-details .name p {
+    font-size: 14px;
+}
+
+.product-details .name select {
+    width: 10%;
+}
+
+.product-data {
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.bottom-section {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 2rem;
+}
+
+.total {
+    background-color: whitesmoke;
+    float: right;
+    padding: 2rem 4rem 2rem 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+table,
+th,
+td {
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    padding: 10px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+tr {
+    padding: 10px;
+}
+
+.checkout-container {
+    float: right;
+    padding: 2rem 4rem 2rem 2rem;
+}
+
+input[type="submit"] {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 12px 74px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(253, 216, 4);
+    color: black;
+}

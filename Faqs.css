@@ -1,0 +1,168 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+}
+
+
+.doubt-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-top: 8px solid #2F2F2F; */
+}
+
+.doubt-heading h1{
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+
+.faqs{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem  7rem;
+    width: 100%;
+}
+
+.ques button{
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+}
+
+.ques h3{
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.ques{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1.5rem 3rem;
+}
+
+.ans{
+    margin-bottom: 10px;
+    max-width: 100%;
+    display: none;
+}
+
+.ans p{
+    background-color: black;
+    color: #fff;
+    padding: 1.5rem 3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+
+.signup-login-reminder{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.signup-login-section{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.input-section input::placeholder{
+    font-size: 1rem;
+    padding: 2rem;
+    color: black;
+}
+
+.input-section input{
+    padding: 1.2rem 6rem;
+    background: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 2px;
+}
+
+.button-section button{
+    padding: 1.2rem 3.5rem;
+    color: #fff;
+    background-color: red;
+    border: 1px solid red;
+    cursor: pointer;
+    border-radius: 2px;
+    /* font-size: 24px; */
+}
+
+.button-section button:hover{
+    background: rgb(181, 21, 21);
+}
+
+.card1{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 8rem;
+    justify-content: center;
+    align-items: center;
+    border-top: 8px solid #2F2F2F;
+    flex-wrap: wrap;
+}
+
+.ques button{
+    cursor: pointer;
+}
+

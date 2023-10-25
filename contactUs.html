@@ -18,20 +18,22 @@
             <li><a href="./about.html">About</a></li>
             <li><a href="./login.html">Login</a></li>
             <li><a href="./contactUs.html">ContactUs</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./Faqs.html">Faq's</a></li>
+            <li><a href="./addtocart.html"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i></a></li>
         </ul>
     </nav> 
 
     <div class="container">
-        <h2>Feel Free To ContactUs</h2>
+        <h2>Feel Free To Contact Us</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6886.187166621095!2d76.41095559159986!3d30.348290157782365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39102861555fb343%3A0x2e5039ca07c63daa!2sGuru%20Nanak%20Nagar%2C%20Patiala%2C%20Punjab!5e0!3m2!1sen!2sin!4v1690389220884!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
-        <form action="" method="post">
+        <form action="done.html" method="get" onsubmit="return validateForm()">
             <input type="text" placeholder="Your Name" required><br>
-            <input type="email" placeholder="Enter Your Email" required><br>
-            <textarea name="textbox" id="" cols="30" rows="10"></textarea><br>
-            <button >Submit</button>
+            <input type="email" id="email" placeholder="Enter Your Email" required><br>
+            <textarea name="textbox" id="message" cols="30" rows="10" required></textarea><br>
+            <button type="submit">Submit</button>
         </form>
-
     </div>
 
     <footer>
@@ -67,6 +69,6 @@
             </div>
         </div>
     </footer>
-    
+    <script src="./contactUs.js"></script>
 </body>
 </html>
