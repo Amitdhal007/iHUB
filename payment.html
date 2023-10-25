@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./payment.css">
+    <title>Payment-Page</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="image">
+            <img src="./assests/undraw_mobile_pay_re_sjb8.svg" alt="">
+        </div>
+        <div class="content">
+            <div class="payment-container">
+                <h2>Select Payment Method</h2>
+                <form id="paymentForm" action="process_payment.php" method="post">
+                    <div class="form-group">
+                        <label for="paymentMethod">Payment Method:</label>
+                        <select id="paymentMethod" name="paymentMethod" required>
+                            <option value="card">Credit/Debit Card</option>
+                            <option value="upi">UPI</option>
+                        </select>
+                    </div>
+        
+                    <div id="cardDetails" class="payment-option">
+                        <h3>Credit/Debit Card Payment</h3>
+                        <div class="form-group">
+                            <!-- <label for="cardNumber">Card Number:</label> -->
+                            <input type="text" id="cardNumber" name="cardNumber" required>
+                            <span class="input-label">Card Number</span>
+                        </div>
+        
+                        <div class="form-group">
+                            <input type="text" id="expDate" name "expDate" required>
+                            <span class="input-label">Expiration Date: MM/YY</span>
+                        </div>
+        
+                        <div class="form-group">
+                            <input type="text" id="cvv" name="cvv" required>
+                            <span class="input-label">CVV</span>
+                        </div>
+        
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <span class="input-label">Name on Card</span>
+                        </div>
+                    </div>
+        
+                    <div id="upiDetails" class="payment-option">
+                        <h3>UPI Payment</h3>
+                        <div class="form-group">
+                            <input type="text" id="upiId" name="upiId" required>
+                            <span class="input-label">UPI ID</span>
+                        </div>
+        
+                        <div class="form-group">
+                            <input type="text" id="amount" name="amount" required>
+                            <span class="input-label">Amount</span>
+                        </div>
+                    </div>
+        
+                    <div class="form-group-button">
+                        <button type="button" id="proceedButton">Select payment method</button>
+                        <button type="button" id="payButton">Proceed to Payment</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./payment.js"></script>
+</body>
+
+</html>

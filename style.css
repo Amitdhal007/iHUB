@@ -129,6 +129,22 @@ button:hover {
   transform: scale(1.1);
 }
 
+.bottom-line{
+  height: 3px;
+  width: 45px;
+  background-color: black;
+  margin: 0.25rem auto;
+  border-radius: 20px;
+}
+
+.bottom-line-testomonial{
+  height: 3px;
+  width: 45px;
+  background-color: black;
+  margin: 0.25rem auto;
+  border-radius: 20px;
+}
+
 
 .heading h3 {
   margin-top: 80px;
@@ -143,6 +159,8 @@ button:hover {
   object-fit: cover;
   width: 300px;
   padding: 27px 18px 1px 18px;
+  transition: 0.3s all ease;
+
   /* margin-left: 30px; */
   /* padding-right: 30px; */
 }
@@ -155,7 +173,6 @@ button:hover {
 
 .trending-product div {
   background-color: whitesmoke;
-  transition: 0.3s all ease;
   margin: 15px;
 }
 
@@ -284,12 +301,13 @@ button:hover {
 
 
 .review-container {
+  margin-top: 4rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 4rem;
-  margin: 2rem;
+  /* margin: 2rem; */
   margin-bottom: 8rem;
 }
 
@@ -305,7 +323,7 @@ button:hover {
   font-family: Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
     Arial, sans-serif;
   text-align: center;
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
   font-weight: 400;
 }
 

@@ -78,3 +78,7 @@
     margin-left: 10px;
     cursor: pointer;
 }
+
+form{
+    overflow: hidden;
+}

@@ -173,3 +173,7 @@ button:hover{
     transition: 0.3s all ease;
     margin-left: 0.5rem;
 }
+
+main{
+    margin-bottom: 6rem;
+}

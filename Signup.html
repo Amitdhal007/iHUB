@@ -12,34 +12,34 @@
 </head>
 <body>
     <div class="container">
-
-        <!-- <img src="./assests/undraw_fingerprint_login_re_t71l.svg" alt=""> -->
-
-        <form action="" method="post">
+        <form id="signup-form" action="./TermsAndCondition.html" method="get">
             <h3>New Account?</h3>
             <div class="form-holder">
                 <i class="fa-solid fa-user" style="color: #000000;"></i>
-                <input type="text" placeholder="Username">
+                <input type="text" placeholder="Username" id="username">
             </div>
             <div class="form-holder">
                 <i class="fa-solid fa-phone" style="color: #000000;"></i>
-                <input type="text" placeholder="Phone Number">
+                <input type="text" placeholder="Phone Number" id="phoneNumber">
             </div>
             <div class="form-holder">
                 <i class="fa-solid fa-envelope" style="color: #000000;"></i>
-                <input type="email" placeholder="Mail">
+                <input type="email" placeholder="Mail" id="email">
             </div>
             <div class="form-holder">
                 <i class="fa-solid fa-lock" style="color: #000000;"></i>
-                <input type="text" placeholder="Password">
+                <input type="password" placeholder="Password" id="password">
             </div>
             <div class="form-holder">
                 <i class="fa-solid fa-lock" style="color: #000000;"></i>
-                <input type="text" placeholder="Confirm Password">
+                <input type="password" placeholder="Confirm Password" id="confirmPassword">
             </div>
-
-            <button>Sign-Up</button>
+            <button type="submit">Sign-Up</button>
+            <div class="link">
+                <a href="./TermsAndCondition.html">TermsAndConditions</a>
+            </div>
         </form>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>
